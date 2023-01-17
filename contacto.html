@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contacto - Rent-a-Car</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="caja">
+            <h1><img src="logo/Logo_Pequeno.png" alt="Logo EDCIOC SAS"> </h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Productos.html">Productos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+
+            </nav>
+
+        </div>
+
+
+    </header>
+
+    <main class="main_contacto">
+        <form action="">
+            <label for="nombreapellido">Nombre y Apellido</label>
+            <input type="text" id="nombreapellido" class="input-padron" required>
+            
+            <label for="correoelectronico">Correo Electrónico</label>
+            <input type="email" id="correoelectronico" class="input-padron" required placeholder="email@dominio.com">
+
+            <label for="telefono">Teléfono</label>
+            <input type="tel" id="telefono" class="input-padron" placeholder="(xxx) xxx xxxx">
+
+            <label for="mensaje">Mensaje</label>
+            <textarea  id="mensaje" cols="70" rows="10" class="input-padron"></textarea>
+
+            <fieldset>
+                <legend>¿Cómo le gustaría que lo contactemos?</legend>
+                <label for="radio-email"><input type="radio" Name = "contacto" value="email" id="radio-email" checked>Email</label>
+                
+
+                <label for="radio-telefono"><input type="radio" Name = "contacto" value="telefono" id="radio-telefono">Teléfono</label>
+                
+
+                <label for="radio-whatsapp"><input type="radio" Name = "contacto" value="whatsapp" id="radio-whatsapp">WhatsApp</label>
+                
+
+            </fieldset>
+            <fieldset>
+                <legend>¿En cuál horario prefiere ser atendido?</legend>
+                <select name="" id="">
+                    <option value="">Mañana</option>
+                 <option value="">Tarde</option>
+                    <option value="">Noche</option>
+                </select>
+            </fieldset>
+            
+
+            <label class="checkbox"><input type="checkbox" checked>¿Le gustaría recibir novedades de Rent-a-Car?</label>
+
+            <input type="submit" value="Enviar formulario" class="enviar">
+
+        </form>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Día</th>
+                    <th>Horario</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+                <tr>
+                    <td>Lunes</td>
+                    <td>08h ~ 20h</td>
+                </tr>
+                <tr>
+                    <td>Miércoles</td>
+                    <td>08h ~ 20h</td>
+                </tr>
+                <tr>
+                    <td>Viernes</td>
+                    <td>08h ~ 20h</td>
+                </tr>
+
+            </tbody>
+            
+        </table>
+        
+    </main>
+
+    <footer>
+        <img src="logo/logo_sinfondo.png" alt="Logo EDCIOC SAS" >
+        <p class="copyright">&copyCopyright EDCIOC SAS - 2023</p>
+    </footer>
+
+</body>
+
+</html>

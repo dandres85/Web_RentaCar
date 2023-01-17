@@ -1,0 +1,45 @@
+body{
+    
+}
+#banner{
+    width: 100%;
+}
+.principal{
+    background: #CCCCCC;
+    padding: 20px;
+}
+h1{
+    text-align: center
+}
+p{
+    text-align: justify;
+    
+}
+strong{
+    color: rgb(5, 5, 86);
+}
+#pie {
+    text-align: center;
+    font-size:14px
+}
+.diferencial{
+    background: #FFFFFF;
+    padding: 30px;
+}
+h2{
+    text-align: center;
+}
+.items{
+    font-style: italic;
+
+}
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+.imagen_dj_negra{
+    width: 30%;
+
+}
